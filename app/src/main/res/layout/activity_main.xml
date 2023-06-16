@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TC No Giriniz" />
+
+        <EditText
+            android:id="@+id/tcNo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="TC no buraya giriniz" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Şifrenizi giriniz" />
+
+        <EditText
+            android:id="@+id/tcSifre"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="TC NO"/>
+
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GİRİŞ" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

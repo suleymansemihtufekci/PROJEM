@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PROJEM</string>
+    <string name="title_activity_harita">harita_Activity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
